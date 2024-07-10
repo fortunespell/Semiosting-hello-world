@@ -13,7 +13,7 @@ This repository contains an example project for the STM32 F767ZI microcontroller
 
 Windows 10
 
-STM32CubeIDE v1.3.2
+STM32CubeIDE v1.13.2
 
 FreeRTOS v20
 
