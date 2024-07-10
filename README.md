@@ -8,6 +8,19 @@ This repository contains an example project for the STM32 F767ZI microcontroller
 - **STM32CubeIDE**: Download and install from [ST's website](https://www.st.com/en/development-tools/stm32cubeide.html).
 - **GNU Arm Embedded Toolchain**: Download from [Arm's website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm).
 - **OpenOCD**: Ensure it is installed and configured properly.
+## Development Environment
+### Software
+
+Windows 10
+
+STM32CubeIDE v1.3.2
+
+FreeRTOS v20
+
+### Hardware
+SWD debugger
+
+NUCLEO-F767ZI
 
 ## Getting Started
 
@@ -15,17 +28,25 @@ This repository contains an example project for the STM32 F767ZI microcontroller
 
 ### 2. Open the Project in STM32CubeIDE
 Open STM32CubeIDE.
+
 Select File > Open Projects from File System....
+
 Browse to the cloned repository and open it.
+
 
 ### 3. Configure Semihosting
 Open main.c in the Src directory.
+
 Ensure your main.c looks like above repo...
+
 
 ### 4. Build and Debug
 Click on the build button (hammer icon) to compile the project.
+
 Click on the debug button (bug icon) to start a debug session.
+
 Ensure semihosting is enabled in the debugger configuration:
+
 Go to Run > Debug Configurations....
 Select GDB OpenOCD Debugging.
 
