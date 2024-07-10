@@ -13,15 +13,22 @@ This repository contains an example project for the STM32 F767ZI microcontroller
 
 ### 1. Clone the Repository
 
-```sh
-git clone https://github.com/yourusername/stm32f767zi-semihosting-example.git
-cd stm32f767zi-semihosting-example
-
-
-2. Open the Project in STM32CubeIDE
+### 2. Open the Project in STM32CubeIDE
 Open STM32CubeIDE.
 Select File > Open Projects from File System....
 Browse to the cloned repository and open it.
-3. Configure Semihosting
+
+### 3. Configure Semihosting
 Open main.c in the Src directory.
-Ensure your main.c looks like this:
+Ensure your main.c looks like above repo...
+
+### 4. Build and Debug
+Click on the build button (hammer icon) to compile the project.
+Click on the debug button (bug icon) to start a debug session.
+Ensure semihosting is enabled in the debugger configuration:
+Go to Run > Debug Configurations....
+Select GDB OpenOCD Debugging.
+
+### 5. Run the Program
+Start the debug session.
+Open the console to see the "hello world" message.
