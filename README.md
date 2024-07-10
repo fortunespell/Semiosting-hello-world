@@ -16,3 +16,12 @@ This repository contains an example project for the STM32 F767ZI microcontroller
 ```sh
 git clone https://github.com/yourusername/stm32f767zi-semihosting-example.git
 cd stm32f767zi-semihosting-example
+
+
+2. Open the Project in STM32CubeIDE
+Open STM32CubeIDE.
+Select File > Open Projects from File System....
+Browse to the cloned repository and open it.
+3. Configure Semihosting
+Open main.c in the Src directory.
+Ensure your main.c looks like this:
