@@ -1,4 +1,4 @@
-# Semiosting-hello-world-
+# Semiosting-hello-world
 # NUCLEO F767ZI Semihosting Example
 
 This repository contains an example project for the NUCLEO F767ZI microcontroller to demonstrate semihosting by printing "Hello, World!" to the debug console.
