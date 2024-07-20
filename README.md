@@ -3,6 +3,8 @@
 
 This repository contains an example project for the NUCLEO F767ZI microcontroller to demonstrate semihosting by printing "Hello, World!" to the debug console.
 
+![image](https://github.com/user-attachments/assets/c9cb8b23-7e30-4f09-a817-686de9f89243)
+
 ## Prerequisites
 
 - **STM32CubeIDE**: Download and install from [ST's website](https://www.st.com/en/development-tools/stm32cubeide.html).
@@ -53,3 +55,5 @@ Select GDB OpenOCD Debugging.
 ### 5. Run the Program
 Start the debug session.
 Open the console to see the "hello world" message.
+
+![image](https://github.com/user-attachments/assets/ad19092e-28bd-4427-95cb-da80e21eae65)
